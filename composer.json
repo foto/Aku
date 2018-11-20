@@ -1,0 +1,21 @@
+{
+  "name": "foto/aku",
+  "description": "RBAC fro ThinkPHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "foto",
+      "email": "ituzone@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "rbac\\": "src/RBAC"
+    }
+  }
+}
